@@ -31,18 +31,18 @@ html {
   color: green;
 }
 .header-info h4 {
-font-size:18px;
+  font-size: 18px;
 }
 
 .header-info a {
-text-decoration: none;
-   }
+  text-decoration: none;
+}
 .header-img img {
   width: 600px;
 }
 
 .header-info ul {
-   padding-inline-start: 20px
+  padding-inline-start: 20px;
 }
 /* form */
 
@@ -72,18 +72,17 @@ input::placeholder {
   color: green;
 }
 
-
 .form-wrapper button {
-   padding: 20px 15px;
-   font-size:23px;
-   color:white;
-   background-color: green;
-   border-radius: 5px;
-   border: 2px solid green;
-   transition: all 0.5s;
+  padding: 20px 15px;
+  font-size: 23px;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  border: 2px solid green;
+  transition: all 0.5s;
 }
 
 .form-wrapper button:hover {
-background-color: white;
-color:green;
+  background-color: white;
+  color: green;
 }
