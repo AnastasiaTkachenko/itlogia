@@ -115,3 +115,62 @@ body {
   background-color: #030305;
   cursor: pointer;
 }
+
+/* second section cars */
+.sub-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #030305;
+  margin-bottom: 40px;
+}
+
+.car-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  margin: 15px 0;
+  color: #030305;
+}
+
+.car {
+  padding: 100px 0;
+}
+.car-item-info {
+  display: flex;
+}
+.car-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.car-item {
+  max-width: 384px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* .car-item-action button {
+  width: 100%;
+} */
+
+.car-item-point {
+  width: 110px;
+  height: 92px;
+  margin: 0 7.5px;
+}
+
+.car-item-point img {
+  padding-bottom: 11px;
+}
+.car-item-action button {
+  padding: 20px;
+  width: 334px;
+  margin-top:13px;
+}
+
+.car {
+  padding:100px 0;
+}
