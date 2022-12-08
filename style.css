@@ -42,15 +42,21 @@ body {
 
 .nav-menu-link {
   list-style: none;
-  border-bottom:5px solid white;
-
+  border-bottom: 5px solid white;
+  padding-bottom: 8px;
 }
 
 .nav-menu-link:hover {
-border-bottom:5px solid #00FF75;
-
+  border-bottom: 5px solid #00ff75;
+  padding-bottom: 8px;
 }
 
+@media screen and (max-width: 810px) {
+  .nav-menu-link:hover {
+
+    border-bottom: 5px solid white;
+  }
+}
 .nav-menu-link:not(:last-child) {
   margin-right: 115px;
 }
@@ -124,11 +130,11 @@ border-bottom:5px solid #00FF75;
   position: relative;
   transition: all 0.5s;
   border: solid 1px black;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .button:hover {
-  background-color: #00FF75;
+  background-color: #00ff75;
   border: solid 1px #66ff00;
   color: black;
 }
