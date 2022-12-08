@@ -70,7 +70,7 @@ body {
     margin: 0 0 20px 0;
   }
 
-  .header-img {
+  .logo {
     transform: scale(1.2);
     margin-bottom: 30px;
   }
@@ -168,9 +168,71 @@ body {
 .car-item-action button {
   padding: 20px;
   width: 334px;
-  margin-top:13px;
+  margin-top: 13px;
 }
 
 .car {
-  padding:100px 0;
+  padding: 100px 0;
+}
+
+/* third block price  */
+.price {
+  overflow: hidden;
+}
+
+.price-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.8px;
+  padding-bottom: 50px;
+  color: #5d5d5f;
+}
+
+.price-input {
+  padding: 22px 18px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  outline:none;
+}
+
+.price-input::placeholder {
+  color: #5d5d5f;
+}
+
+.price-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 344px;
+}
+
+.price .container {
+  position: relative;
+  padding-bottom: 120px;
+}
+
+.price-image {
+  position:absolute;
+  bottom:0;
+  left:401px;
+}
+
+/* footer  */
+
+.footer {
+  padding:25px 0;
+
+}
+
+.footer-text {
+font-weight:400;
+font-size: 15px;
+line-height:17.58px
+}
+
+.footer .container {
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
 }
