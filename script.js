@@ -6,6 +6,6 @@ document.addEventListener('mousemove', (event) => {
 
    const elem = document.querySelector(".main");
 document.addEventListener('scroll', () => {
-       elem.style.backgroundPositionX = '0' + (0.3 * window.pageYOffset) + 'px';
+       elem.style.backgroundPositionX = '0' + (0.2 * window.pageYOffset) + 'px';
 })
 });
